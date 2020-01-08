@@ -22,7 +22,6 @@ end
 def find_min_value(array)
   integer = array[0] 
   array.length.times do |index|
-    puts index
     if array[index] < integer
       integer = array[index]
     end
